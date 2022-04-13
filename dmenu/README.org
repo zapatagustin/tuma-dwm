@@ -1,0 +1,27 @@
+* Presentación
+
+[[https://tools.suckless.org/dmenu/][dmenu]] es un menú dinámico para X. Esta es una versión levemente modificada de la original por el proyecto [[https://suckless.org/][suckless]].
+
+** Versión de dmenu
+
+- 5.1
+
+** Parches agregados
+
+- Ninguno.
+
+* Requisitos
+
+En Debian GNU/Linux: 
+
+=# apt install build-essential libx11-dev libxinerama-dev sharutils libxft-dev fonts-hack=
+
+* Instalación
+
+- =$ git clone https://notabug.org/dlmayhem/terror-dmenu.git=
+- =$ cd terror-dmenu=
+- =# make clean install=
+
+* Configuración
+
+La configuración se puede hacer directamente en el archivo config.h y luego se debe recompilar.
